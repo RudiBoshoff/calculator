@@ -1,0 +1,148 @@
+/* RUDI BOSHOFF */
+/* GENERAL STYLING */
+* {
+  font-size: 25px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+}
+
+
+
+
+/* AUTHOR */
+.author {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.author a {
+  color: #1c95d0;
+}
+
+
+
+
+
+/* CALCULATOR BODY */
+.calculator-frame {
+  background: #333;
+  width: 415px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+
+
+
+/* DISPLAY */
+.calculator-display {
+  width: 415px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 210px;
+}
+
+.display {
+  margin: 3px 2.5px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  padding-right: 30px;
+  height: 100px;
+  flex-basis: 400px;
+  line-height: 100px;
+  background: #b3bfc5;
+  text-align: right;
+}
+
+.display-command {
+  background-color: #929fa5;
+}
+
+.display-answer {
+  font-size: 24px;
+}
+
+
+
+
+/* KEYPAD POSITIONING */
+.keypad {
+  display: flex;
+}
+
+
+
+
+/* BACKSPACE CLEAR AND CLEAR ENTRY */
+.reset-functions {
+  display:flex;
+}
+
+.reset-function {
+  margin: 2.5px;
+  background-color: #396c84;
+  flex-basis: 100px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.reset-function:hover {
+  background: #68a2bd;
+}
+
+.backspace {
+  font-size: 60px;
+}
+
+
+
+
+/* NUMBERS 0 to 9, POINT and PLUS MINUS */
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 315px;
+  flex-direction: row-reverse;
+}
+
+.number {
+  margin: 2.5px;
+  background-color: #78909c;
+  flex-basis: 100px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.number:hover {
+  background: #b0bec5;
+}
+
+
+
+
+/* FUNCTIONS + - x / = */
+.functions {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 300px;
+}
+
+.function {
+  font-size: 40px;
+  font-weight: normal;
+  margin: 2.5px;
+  background-color: #607d8b;
+  flex-basis: 100px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.function:hover {
+  background: #68a2bd;
+}
